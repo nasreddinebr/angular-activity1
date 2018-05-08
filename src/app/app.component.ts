@@ -6,5 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+
+  posts = [
+    {
+      title: 'Mon premier post',
+      content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+    },
+
+    {
+      title: 'Mon deuxième post',
+      content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
+    },
+
+    {
+      title: 'Encore un post',
+      content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'
+    }
+
+  ];
+
+  constructor() {
+
+  }
+
+
 }

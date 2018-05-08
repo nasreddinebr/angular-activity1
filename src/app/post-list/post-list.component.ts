@@ -8,7 +8,6 @@ import { Component, OnInit, Input } from '@angular/core';
 export class PostListComponent implements OnInit {
   @Input() title: string;
   @Input() content: string;
-
   loveIts = 0;
   created_at = new Date();
 

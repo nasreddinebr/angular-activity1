@@ -12,9 +12,7 @@ export class PostListComponent implements OnInit {
   created_at = new Date();
 
 
-  constructor() {
-    //this.created_at = new Date();
-  }
+  constructor() {}
 
   ngOnInit() {
   }
